@@ -6,7 +6,7 @@ Acme Movie Fanatics (AMF) wants to build an online community for its members.  T
 
 **NOTE**:
 
-* This assignment can be completed in both Liferay version 7.0 and 7.1. When doing this project in Liferay 7.1 it may be necessary to use Liferay 7.0 documentation as well as 7.1 documentation. The documentation for Liferay 7.0 is currently more robust than the 7.1 documentation. That being said, most requirements are fulfilled similarly between the two versions of Liferay. One notable exception is how site pages are created.
+* This assignment can be completed in both Liferay version 7.2 and 7.3. When doing this project in Liferay 7.3 it may be necessary to use Liferay 7.2 documentation as well as 7.3 documentation. The documentation for Liferay 7.2 is currently more robust than the 7.3 documentation. That being said, most requirements are fulfilled similarly between the two versions of Liferay. One notable exception is how site pages are created.
 
 * In order to setup and test email related functionality, please create ***all*** test users using the alias feature from your `liferay.com` email account.  For example, if your email address with Liferay is `joe.shmoe@liferay.com`, then you can create additional users by appending a `+` sign with an alphanumeric string between the `+` sign and the `@` sign.  Here is an example: `joe.shmoe+test01@liferay.com`.  Emails sent to that address will show up in your mailbox just like your real email address.  This allows you to create any number of test users with just your email address. You can configure Liferay to use your Google Apps email account as the email server or setup a [fake SMTP server](https://grow.liferay.com/share/Lightweight+SMTP+servers+for+testing+e-mail+notifications) to intercept the emails. If you are using a Google Apps email account as the email server you will have to enable 'less secure app access' for that Google account. Follow this link to do so: [Less Secure App Access](https://myaccount.google.com/lesssecureapps) 
 
@@ -57,7 +57,7 @@ Requirements
 
 ### Organization & User Group ###
 #### Movie Awards Organization ####
-* If using Liferay 7.1, define a new type of organization through **System Settings** in the **Users** category. If using Liferay 7.0 you'll have to define a new type of organization using **portal-ext.properties**:
+* If using Liferay 7.3, define a new type of organization through **System Settings** in the **Users** category. If using Liferay 7.2 you'll have to define a new type of organization using **portal-ext.properties**:
 	* Type: custom-organization.
 	* Top level
 	* Suborganizations can only be of type regular-organization.
